@@ -51,7 +51,7 @@
               <li><a href="#">Korporasi</a></li>
             </ul>
           </li>
-          <li><a class="active" href="../pages/Login.php">Login</a></li>
+          <li><a class="active" href="../pages/Login.php">Masuk</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -66,7 +66,7 @@
 
         <svg width="1920px" height="265px" viewBox="0 0 1920 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
+            <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#F8F9FA">
               <path d="M0,439.134243 C175.04074,464.89273 327.944386,477.771974 458.710937,477.771974 C654.860765,477.771974 870.645295,442.632362 1205.9828,410.192501 C1429.54114,388.565926 1667.54687,411.092417 1920,477.771974 L1920,667 L1017.15166,667 L0,667 L0,439.134243 Z" id="Path"></path>
             </g>
           </g>
@@ -79,7 +79,7 @@
           <div class="col-12">
             <div class="row justify-content-center">
               <div class="col-md-7 text-center hero-text">
-                <h1 data-aos="fade-up" data-aos-delay="">Register</h1>
+                <h1 data-aos="fade-up" data-aos-delay="">Daftar</h1>
                 <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
@@ -89,10 +89,10 @@
 
     </section>
 
-    <section class="section">
+    <section class="section bg-light">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-6">
+          <div class="col-lg-8">
             <div class="card" style="border-radius: 15px;" data-aos="fade-up">
               <div class="card-body p-5">
                 <form action="../config/" method="POST" role="form" class="php-email-form">
@@ -132,26 +132,12 @@
       </div>
     </section>
 
-    <!-- ======= CTA Section ======= -->
-    <section class="section cta-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0">
-            <h2>Starts Save The Earth</h2>
-          </div>
-          <div class="col-md-5 text-center">
-            <img src="../assets/img/apple-touch-icon.png" alt="" style="height: 120px;">
-          </div>
-        </div>
-      </div>
-    </section><!-- End CTA Section -->
-
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-md-0">
-          <h3>About Reoil</h3>
+          <h3>Tentang Reoil</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
             dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
           <p class="social">
@@ -164,11 +150,11 @@
         <div class="col-md-7 ms-auto">
           <div class="row site-section pt-0">
             <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Navigation</h3>
+              <h3>Navigasi</h3>
               <ul class="list-unstyled">
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="../pages/About.php">Tentang Kami</a></li>
-                <li><a href="../pages/Service.php">Layanan</a></li>
+                <li><a href="./index.php">Home</a></li>
+                <li><a href="./pages/About.php">Tentang Kami</a></li>
+                <li><a href="./pages/Service.php">Layanan</a></li>
                 <li><a href="#">Mitra</a></li>
               </ul>
             </div>
@@ -182,10 +168,10 @@
               </ul>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Downloads</h3>
+              <h3>Unduh</h3>
               <ul class="list-unstyled">
-                <li><a href="#">App Store</a></li>
-                <li><a href="#">Play Store</a></li>
+                <li><a href="https://www.apple.com/id/app-store/">App Store</a></li>
+                <li><a href="https://play.google.com/store/">Play Store</a></li>
               </ul>
             </div>
           </div>

@@ -36,7 +36,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="">Homme</a></li>
+          <li><a class="active" href="">Home</a></li>
           <li><a href="./pages/About.php">Tentang Kami</a></li>
           <li><a href="./pages/Service.php">Layanan</a></li>
           <li class="dropdown"><a href="#"><span>Mitra</span> <i class="bi bi-chevron-down"></i></a>
@@ -46,7 +46,7 @@
               <li><a href="#">Korporasi</a></li>
             </ul>
           </li>
-          <li><a href="./pages/Login.php">Login</a></li>
+          <li><a href="./pages/Login.php">Masuk</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -59,15 +59,12 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 hero-text-image">
+        <div class="col-112 hero-text-image">
           <div class="row">
             <div class="col-lg-8 text-center text-lg-start">
-              <h1 data-aos="fade-right">Manfaatkan Limbah Minyak Jelantah</h1>
+              <h1 data-aos="fade-right">Manfaatkan Limbah Minyak Jelantahmu!</h1>
               <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Reoil membantu anda untuk mengolah minyak jelantah.</p>
               <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Mulai</a></p>
-            </div>
-            <div class="col-lg-4 iphone-wrap">
-              <img src="./assets/img/phone_1.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
             </div>
           </div>
         </div>
@@ -83,8 +80,8 @@
       <div class="container">
 
         <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-5" data-aos="fade-up">
-            <h2 class="section-heading">Produk Hasil Pengolahan Minyak Jelantah</h2>
+          <div class="col-md-6" data-aos="fade-up">
+            <h2 class="section-heading">Beberapa Produk Hasil Pengolahan Minyak Jelantah Kami</h2>
           </div>
         </div>
 
@@ -125,8 +122,9 @@
 
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade">
-          <div class="col-md-6 mb-5">
-            <img src="./assets/img/undraw_svg_1.svg" alt="Image" class="img-fluid">
+          <div class="col-md-8" >
+            <img src="./assets/img/earth3d.png" alt="Image" class="img-fluid" data-aos="fade-up" width="30%">
+            <h2 class="section-heading mt-5">Cukup Lakukan 3 Langkah</h2>
           </div>
         </div>
 
@@ -166,8 +164,8 @@
               laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
               dolore mollitia esse natus beatae.</p>
           </div>
-          <div class="col-md-6" data-aos="fade-left">
-            <img src="./assets/img/undraw_svg_2.svg" alt="Image" class="img-fluid">
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <img src="./assets/img/books.png" alt="Image" class="img-fluid" width="70%">
           </div>
         </div>
       </div>
@@ -177,13 +175,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4 ms-auto order-2">
-            <h2 class="mb-4">Limbah</h2>
+            <h2 class="mb-4">Penjemputan</h2>
             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
               laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
               dolore mollitia esse natus beatae.</p>
           </div>
-          <div class="col-md-6" data-aos="fade-right">
-            <img src="./assets/img/undraw_svg_3.svg" alt="Image" class="img-fluid">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="./assets/img/kurir.png" alt="Image" class="img-fluid" width="80%">
           </div>
         </div>
       </div>
@@ -194,7 +192,7 @@
       <div class="container">
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-4">
-            <h2 class="section-heading">Review From Our Users</h2>
+            <h2 class="section-heading">Timbal Balik dari Konsumen</h2>
           </div>
         </div>
         <div class="row justify-content-center text-center">
@@ -212,7 +210,7 @@
                       <span class="bi bi-star-fill"></span>
                       <span class="bi bi-star-fill muted"></span>
                     </p>
-                    <h3>Excellent App!</h3>
+                    <h3>Sangat bermanfaat!</h3>
                     <blockquote>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                         aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -222,7 +220,7 @@
                     <p class="review-user">
                       <img src="./assets/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                       <span class="d-block">
-                        <span class="text-black">Jean Doe</span>, &mdash; App User
+                        <span class="text-black">Suriyanti</span>, &mdash; IRT
                       </span>
                     </p>
 
@@ -238,7 +236,7 @@
                       <span class="bi bi-star-fill"></span>
                       <span class="bi bi-star-fill muted"></span>
                     </p>
-                    <h3>This App is easy to use!</h3>
+                    <h3>Mengurangi Limbah Rumah Tangga</h3>
                     <blockquote>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                         aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -248,7 +246,7 @@
                     <p class="review-user">
                       <img src="./assets/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                       <span class="d-block">
-                        <span class="text-black">Johan Smith</span>, &mdash; App User
+                        <span class="text-black">Johan Smith</span>, &mdash; Pemilik Warung
                       </span>
                     </p>
 
@@ -264,7 +262,7 @@
                       <span class="bi bi-star-fill"></span>
                       <span class="bi bi-star-fill muted"></span>
                     </p>
-                    <h3>Awesome functionality!</h3>
+                    <h3>Terima Kasih!</h3>
                     <blockquote>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                         aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -274,7 +272,7 @@
                     <p class="review-user">
                       <img src="./assets/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                       <span class="d-block">
-                        <span class="text-black">Jean Thunberg</span>, &mdash; App User
+                        <span class="text-black"></span>MeiLin, &mdash; Manager Restoran
                       </span>
                     </p>
 
@@ -293,11 +291,11 @@
     <section class="section cta-section">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 me-auto text-center text-md-start">
-            <h2>Starts Save The Earth</h2>
+          <div class="col-md-6 me-auto text-center">
+            <h2>Mulai sekarang!</h2>
           </div>
-          <div class="col-md-5 text-center text-md-end">
-            <iframe width="460" height="215" src="https://www.youtube.com/embed/F-v7UbnpXf8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="col-md-6 text-center">
+            <iframe width="500" height="215" src="https://www.youtube.com/embed/F-v7UbnpXf8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -310,7 +308,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-md-0">
-          <h3>About Reoil</h3>
+          <h3>Tentang Reoil</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
             dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
           <p class="social">
@@ -323,7 +321,7 @@
         <div class="col-md-7 ms-auto">
           <div class="row site-section pt-0">
             <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Navigation</h3>
+              <h3>Navigasi</h3>
               <ul class="list-unstyled">
                 <li><a href="./index.php">Home</a></li>
                 <li><a href="./pages/About.php">Tentang Kami</a></li>
@@ -341,10 +339,10 @@
               </ul>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Downloads</h3>
+              <h3>Unduh</h3>
               <ul class="list-unstyled">
-                <li><a href="#">App Store</a></li>
-                <li><a href="#">Play Store</a></li>
+                <li><a href="https://www.apple.com/id/app-store/">App Store</a></li>
+                <li><a href="https://play.google.com/store/">Play Store</a></li>
               </ul>
             </div>
           </div>
