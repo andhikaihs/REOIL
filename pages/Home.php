@@ -36,7 +36,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="">Home</a></li>
+          <li><a class="active" href="">Homme</a></li>
           <li><a href="./pages/About.php">Tentang Kami</a></li>
           <li><a href="./pages/Service.php">Layanan</a></li>
           <li class="dropdown"><a href="#"><span>Mitra</span> <i class="bi bi-chevron-down"></i></a>
