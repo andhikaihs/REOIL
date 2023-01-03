@@ -87,7 +87,7 @@
                 <div class="col-md-4">
                     <div class="step">
                         <span class="number">03</span>
-                        <h3>Minta Penjemputan</h3>
+                        <h3>Pilih Layanan</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
                     </div>
                 </div>
