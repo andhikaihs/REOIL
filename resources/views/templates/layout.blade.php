@@ -38,15 +38,22 @@
                 <li><a class={{ View::getSection('title') == "Home" ? "active" : "inactive" }} href="/">Home</a></li>
                 <li><a class={{ View::getSection('title') == "About" ? "active" : "inactive" }} href="/about">Tentang Kami</a></li>
                 <li><a class={{ View::getSection('title') == "Service" ? "active" : "inactive" }} href="/service">Layanan</a></li>
-                <li class="dropdown"><a href="#"><span>Mitra</span> <i class="bi bi-chevron-down"></i></a>
+                @if (Auth::check() && Auth::user()->role_id != 1)
+                <li><a class={{ View::getSection('title') == "Reservasi" ? "active" : "inactive" }} href="/book">Reservasi</a></li>
+                <li class="dropdown"><a href="#"><img src="img/user.png" height="14px" class="me-2">{{ Auth::user()->username }}<i class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
-                        <li><a href="#">Pahlawan</a></li>
-                        <li><a href="#">Merchant</a></li>
-                        <li><a href="#">Korporasi</a></li>
+                        <li><a href="/poin"><img src="img/coin.png" height="22px">{{ $point }} Poin</a></li>
+                        <li><a href="/profile">Profile</a></li>
+                        <li><a href="/status">Status Pesanan</a></li>
+                        <li><a href="/logout">Keluar</a></li>
                     </ul>
                 </li>
-                @if (Auth::check())
-                    <li><a href="/logout">Keluar</a></li>
+                @elseif (Auth::check() && Auth::user()->role_id == 1)
+                <li class="dropdown"><a href="#"><img src="img/user.png" height="14px" class="me-2">{{ Auth::user()->username }}<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                        <li><a href="/transaksi">Transaksi</a></li>
+                        <li><a href="/logout">Keluar</a></li>
+                    </ul>
                 @else
                     <li><a href="/login">Masuk</a></li>
                 @endif

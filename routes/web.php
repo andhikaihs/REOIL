@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\PointController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,21 +16,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [UserController::class, 'home']);
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/about', [UserController::class, 'about']);
 
-Route::get('/service', function () {
-    return view('service');
-});
+Route::get('/transaksi', [ServiceController::class, 'transaksi'])->middleware('auth', 'admin');
+Route::post('/transaksi/update/{id}', [ServiceController::class, 'update'])->middleware('auth', 'admin');
 
-Route::get('/book', function () {
-    return view('book');
-})->middleware('auth');
+Route::get('/service', [UserController::class, 'service']);
+Route::get('/service/cancel/{id}', [ServiceController::class, 'cancel'])->middleware('auth');
+
+Route::get('/book', [ServiceController::class, 'book'])->middleware('auth');
+Route::post('/book', [ServiceController::class, 'save'])->middleware('auth');
+
+Route::get('/status', [ServiceController::class, 'status'])->middleware('auth');
+
+Route::get('/poin', [PointController::class, 'point'])->middleware('auth');
+Route::get('/poin/claim/{type}', [PointController::class, 'claim'])->middleware('auth');
+
+Route::get('/profile', [UserController::class, 'profile'])->middleware('auth');
+Route::post('/profile/update/{id}', [UserController::class, 'update'])->middleware('auth');
+Route::get('/profile/delete/{id}', [UserController::class, 'delete'])->middleware('auth');
 
 Route::get('/register', function () {
     return view('register');
@@ -37,7 +45,7 @@ Route::post('/register', [UserController::class, 'register'])->middleware('guest
 
 Route::get('/login', function () {
     return view('login');
-})->middleware('guest');
+})->middleware('guest')->name('login');
 Route::post('/login', [UserController::class, 'login'])->middleware('guest');
 
 Route::get('/logout', [UserController::class, 'logout'])->middleware('auth');

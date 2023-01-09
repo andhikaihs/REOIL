@@ -51,11 +51,15 @@
                     <div class="d-grid gap-1 col-6 mx-auto">
                       <button class="btn btn-primary mt-4" type="submit" name="submit">Masuk</button>
                     </div>
-                    <p class="mt-3 text-center">Belum punya akun? <a href="/register">Daftar</a></p>                                        
+                    <p class="mt-3 text-center">Anda belum punya akun? <a href="/register">Daftar</a></p>                                        
                 </form>
                 @if ($errors->any())
                 <div class="alert alert-danger mt-3">
-                    {{ $errors->first() }}
+                  <ul style="list-style: none;">
+                    @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                    @endforeach
+                  </ul>
                 </div>
                 @endif
               </div>
