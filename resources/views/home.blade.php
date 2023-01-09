@@ -53,7 +53,7 @@
                 <i class="bi bi-bar-chart"></i>
               </div>
               <h3 class="mb-3">Aroma terapi</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <p>Hasil pengolahan minyak jelantah dapat juga dijadikan bahan baku aroma terapi.</p>
             </div>
           </div>
         </div>
@@ -72,21 +72,21 @@
             <div class="step">
               <span class="number">01</span>
               <h3>Daftar</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <p>Buat akun anda sendiri untuk memulai menggunakan fitur yang ada.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="step">
               <span class="number">02</span>
               <h3>Isi Data Diri</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <p>Tambahkan data diri anda, pastikan sudah benar dan sesuai.</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="step">
               <span class="number">03</span>
               <h3>Minta Penjemputan</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <p>Lakukan reservasi untuk meminta penjemputan atas minyak jelantah.</p>
             </div>
           </div>
         </div>
@@ -97,9 +97,11 @@
         <div class="row align-items-center">
           <div class="col-md-4 me-auto">
             <h2 class="mb-4">Sejarah</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
-              laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
-              dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">Berawal dari tahun 2020. sekelompok mahasiswa mencoba mencari solusi dan cara terbaik untuk bisa
+              membantu para pengepul minyak jelantah mendapatkan minyaknya, serta membantu masyarakat umum untuk dapat 
+              mengolah minyak jelantahnya dengan cara yang lebih bertanggung jawab. Kini Re-Oil sudah memiliki ratusan pengguna
+              tetap dan komunitasnya akan terus berkembang
+            </p>
           </div>
           <div class="col-md-6 text-center" data-aos="fade-left">
             <img src="img/books.png" alt="Image" class="img-fluid" width="70%">
@@ -145,9 +147,7 @@
                     </p>
                     <h3>Sangat bermanfaat!</h3>
                     <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
+                      <p>Overall bagus tapi untuk waktu penjemputannya seharusnya masih bisa dipercepat lagi. Kurirnya sigap walaupun membawa minyak jelantah banyak top.</p>
                     </blockquote>
                     <p class="review-user">
                       <img src="img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
@@ -168,14 +168,12 @@
                     </p>
                     <h3>Mengurangi Limbah Rumah Tangga</h3>
                     <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
+                      <p>Mantep cepat banget sampai nya Jumat siang reservasi dua jam kemudian kurirnya udh sampai, bakal sering pakai aplikasi reoil nih hehe konfirmasinya juga cepet makasih admin.</p>
                     </blockquote>
                     <p class="review-user">
                       <img src="img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                       <span class="d-block">
-                        <span class="text-black">Johan Smith</span>, &mdash; Pemilik Warung
+                        <span class="text-black">Hamid Rahman</span>, &mdash; Pemilik Warung
                       </span>
                     </p>
                   </div>
@@ -191,14 +189,12 @@
                     </p>
                     <h3>Terima Kasih!</h3>
                     <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
+                      <p>Bagus bgt layanannya.. kurirnya ramah. dapat poin juga, lumayan buat nanti ditukar jadi voucher. tadinya takut kalau ini cuma tipuan, eh ternyata beneran dateng abangnya.. good lah ni layanan.</p>
                     </blockquote>
                     <p class="review-user">
                       <img src="img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                       <span class="d-block">
-                        <span class="text-black"></span>MeiLin, &mdash; Manager Restoran
+                        <span class="text-black"></span>Bagus, &mdash; Manager Restoran
                       </span>
                     </p>
                   </div>

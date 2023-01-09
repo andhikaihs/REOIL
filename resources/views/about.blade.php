@@ -21,7 +21,7 @@
             <div class="row justify-content-center">
               <div class="col-md-7 text-center hero-text">
                 <h1 data-aos="fade-up" data-aos-delay="">Tentang Kami</h1>
-                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Sekilas mengenai kami.</p>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 ms-auto">
             <h2 class="mb-4">Visi</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">Membawa kebaikan untuk menjaga kehidupan alam dengan menciptakan dan menyediakan pengolahan limbah yang berkelanjutan dengan integritas.</p>
           </div>
           <div class="col-md-6 text-center" data-aos="fade-right">
             <img src="img/lamp.png" alt="Image" class="img-fluid" data-aos="fade-up" width="55%">
@@ -46,7 +46,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 me-auto order-2">
             <h2 class="mb-4">Misi</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">Kami berusaha menjadikan kualitas dan pelayanan terbaik sebagai prioritas utama dalam mengelola limbah yang ada. Selain itu, Kami berusaha menghadirkan inovasi terbaik untuk menyelesaikan permasalahan limbah yang berkelanjutan lewat inovasi dan teknologi.</p>
           </div>
           <div class="col-md-6 text-center" data-aos="fade-left">
             <img src="img/check.png" alt="Image" class="img-fluid" width="55%">
@@ -54,7 +54,6 @@
         </div>
       </div>
     </section>
-    <!-- ======= CTA Section ======= -->
     <section class="section cta-section">
       <div class="container">
         <div class="row align-items-center">
@@ -67,5 +66,5 @@
         </div>
       </div>
     </section>
-</main><!-- End #main -->
+</main>
 @endsection

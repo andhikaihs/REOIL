@@ -31,7 +31,6 @@
     <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
             <h1><a href="">Reoil</a></h1>
-            <!-- <a href="index.html"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
         <nav id="navbar" class="navbar">
             <ul>
@@ -70,8 +69,8 @@
         <div class="row">
             <div class="col-md-4 mb-md-0">
                 <h3>Tentang Reoil</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
-                    dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
+                <p>Kami berusaha menjadikan kualitas dan pelayanan terbaik sebagai prioritas utama dalam mengelola limbah yang ada. 
+                    Selain itu, Kami berusaha menghadirkan inovasi terbaik untuk menyelesaikan permasalahan limbah yang berkelanjutan lewat inovasi dan teknologi.</p>
                 <p class="social">
                     <a href="https://twitter.com"><span class="bi bi-twitter"></span></a>
                     <a href="https://facebook.com"><span class="bi bi-facebook"></span></a>

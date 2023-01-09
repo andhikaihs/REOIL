@@ -24,8 +24,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-7 text-center hero-text">
                             <h1 data-aos="fade-up" data-aos-delay="">Our Services</h1>
-                            <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.</p>
+                            <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Beberapa layanan yang kami sediakan.</p>
                         </div>
                     </div>
                 </div>
@@ -37,8 +36,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-7 mb-5">
                     <h2 class="section-heading">Layanan Kami</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit
-                        laborum earum.</p>
+                    <p>Beberapa layanan yang kami sediakan.</p>
                 </div>
             </div>
             <div class="row align-items-stretch">
