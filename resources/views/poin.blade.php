@@ -42,14 +42,14 @@
                 </div>
             @endif
             <div class="row align-items-stretch" data-aos="fade-down">
-              <div class="row">
-                <div class="col-md-4 text-center bg-info rounded-pill">
-                  <h3>Poin Anda</h3>
+                <div class="row rounded-pill" style="background-color: #2d5500;">
+                    <div class="col-md-4 text-center" style="color: #F8F9FA;">
+                        <strong>Poin Anda</strong>
+                    </div>
+                    <div class="col-md-8 text-center" style="color: #F8F9FA;">
+                        <strong>{{ $point }}</strong>
+                    </div>
                 </div>
-                <div class="col-md-8 text-center text-white bg-secondary">
-                  <h3>{{ $point }}</h3>
-                </div>
-              </div>
                 <div class="col-lg-4 my-5 mb-lg-0" data-aos="fade-up" >
                     <div class="pricing h-75 text-center">
                         <h3>Voucher Indomaret</h3>
