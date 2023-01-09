@@ -114,9 +114,10 @@
         <div class="row align-items-center">
           <div class="col-md-4 ms-auto order-2">
             <h2 class="mb-4">Penjemputan</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
-              laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
-              dolore mollitia esse natus beatae.</p>
+            <p class="mb-4">Kami akan langsung menjemput minyak jelantah yang anda punya di tempat ada berada, jaminan kecepatan
+              dan durasi waktu yang sudah terjamin. Anda tidak perlu lagi repot-repot untuk datang ke tempat pengolahan minyak
+             jelantah, cukup di rumah, kantor, warung, atau usaha anda. kami siap untuk menjemput minyak jelantah anda dan
+             menukarkannya dengan poin yang dapat di tukarkan menjadi voucher</p>
           </div>
           <div class="col-md-6 text-center" data-aos="fade-right">
             <img src="img/kurir.png" alt="Image" class="img-fluid" width="80%">

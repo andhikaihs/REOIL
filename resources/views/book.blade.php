@@ -50,7 +50,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="service" class="form-label">Layanan</label>
-                        <select class="form-select" aria-label="service" name="service" required>
+                        <select class="form-select" aria-label="service" name="service" disabled>
                             <option value="Penjemputan">Penjemputan</option>
                             <option value="Penjemputan">Pengantaran</option>
                             <option value="Pengolahan">Pengolahan</option>
