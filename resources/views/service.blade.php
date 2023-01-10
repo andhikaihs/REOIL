@@ -23,7 +23,7 @@
                 <div class="col-12">
                     <div class="row justify-content-center">
                         <div class="col-md-7 text-center hero-text">
-                            <h1 data-aos="fade-up" data-aos-delay="">Our Services</h1>
+                            <h1 data-aos="fade-up" data-aos-delay="">Layanan Kami</h1>
                             <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Beberapa layanan yang kami sediakan.</p>
                         </div>
                     </div>
@@ -33,12 +33,6 @@
     </div>
     <section class="section bg-light">
         <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-7 mb-5">
-                    <h2 class="section-heading">Layanan Kami</h2>
-                    <p>Beberapa layanan yang kami sediakan.</p>
-                </div>
-            </div>
             <div class="row align-items-stretch">
                 <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-up">
                     <div class="pricing h-75 text-center">
