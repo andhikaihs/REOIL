@@ -4,7 +4,7 @@
 - PHP 8.0 or 8.1
 - XAMPP
 - Laravel 9
-- Composer: click here to download
+- Composer
 
 ## How to use
 - Clone the repository
